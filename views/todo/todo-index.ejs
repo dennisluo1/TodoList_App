@@ -1,0 +1,9 @@
+<% include ../partials/boilerplate %>
+
+    <% for (let todo of data) { %>
+        <div class='todo'>
+            <h1><%= todo.title %></h1>
+            <a href='/todo/<%= todo.id%>'>Learn more</a>
+        </div>
+    <% } %>
+<% include ../partials/end %>

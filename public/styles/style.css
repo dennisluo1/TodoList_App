@@ -1,0 +1,45 @@
+body {
+  background-image: url('../images/todolist.jpg');
+  background-size: cover;
+  font-family: arial;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px 10vw;
+  text-align: center;
+}
+nav ul li {
+  padding: 10px 50px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 3em;
+  transition: 0.5s;
+}
+
+nav ul li:hover {
+  background-color: orange;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1000px;
+  margin: 50px auto;
+  margin-right: 25px; 
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
