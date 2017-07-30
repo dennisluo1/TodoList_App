@@ -2,3 +2,5 @@
 const express = require('express');
 const todoRoutes = express.Router();
 
+//export the routes
+module.exports = todoRoutes;

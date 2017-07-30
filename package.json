@@ -9,12 +9,19 @@
     "dev": "nodemon app.js",
     "debugger": "DEBUG=*:* npm run dev"
   },
+  "keywords": [
+    "express",
+    "pgpromise"
+  ],
+  "author": "dennisluo",
   "dependencies": {
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.17.2",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
+    "method-override": "^2.3.9",
     "morgan": "^1.8.2",
-    "version": "^0.1.2"
+    "path": "^0.12.7",
+    "pg-promise": "^6.3.5"
   }
 }
