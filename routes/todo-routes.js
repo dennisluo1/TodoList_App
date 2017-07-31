@@ -1,6 +1,7 @@
 //initialize new instance of express's router
 const express = require('express');
 const todoRoutes = express.Router();
+const authRouter = express.Router();
 
 const todoController = require('../controllers/todo-controller');
 
