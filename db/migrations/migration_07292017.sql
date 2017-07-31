@@ -1,4 +1,4 @@
-\connect to_do_list
+\c to_do_list
 
 CREATE TABLE IF NOT EXISTS todo (
   id BIGSERIAL PRIMARY KEY,

@@ -5,7 +5,22 @@ INSERT INTO todo (title, status, category) VALUES
     'School'
   ),
   (
+    'Do laundry',
+    'Completed',
+    'Chores'
+  ),
+  (
+    'Pay Rent',
+    'Completed',
+    'Expenses'
+  ),
+  (
+    'Do grocery shopping',
+    'Completed',
+    'Chores'
+  ),
+  (
     'Head to the Gym',
-    'Incomplete',
+    'Completed',
     'Health'
   );
